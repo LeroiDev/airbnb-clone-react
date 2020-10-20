@@ -1,0 +1,6 @@
+.banner {
+  background: url("../../img/banner__bg.jpg") no-repeat center center/cover;
+  object-fit: contain;
+  height: 50vh;
+  position: relative;
+}
