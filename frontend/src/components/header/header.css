@@ -7,6 +7,7 @@
   z-index: 100;
   background-color: #fff;
   width: 100%;
+  margin: 0.4rem;
 }
 .header__logo {
   object-fit: contain;
@@ -33,6 +34,9 @@
   justify-content: space-between;
   width: 15vw;
   margin-right: 3.5rem;
+}
+.header__right > * {
+  margin-right: 0.2rem;
 }
 
 /* media queries */

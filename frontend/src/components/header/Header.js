@@ -8,7 +8,7 @@ import {Avatar} from '@material-ui/core';
 
 const Header = () => {
   return (
-    <div className='header'>
+    <nav className='header'>
       <img className='header__logo' src={logo} alt="airbnb logo"/>
     <div className="header__center">
       <input type="text" />
@@ -20,7 +20,7 @@ const Header = () => {
       <ExpandMoreIcon/>
       <Avatar/>
     </div>
-    </div>
+    </nav>
 
   )
 }
