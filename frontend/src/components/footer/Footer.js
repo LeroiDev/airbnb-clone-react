@@ -8,7 +8,7 @@ const Footer = () => {
       <p>
         Copyright &copy; just kidding -just a quick demo of airbnb.
       </p>
-      <p className="footer__links">
+      <div className="footer__links">
         <p>
         <FiberManualRecordIcon/>
         Privacy 
@@ -29,7 +29,7 @@ const Footer = () => {
       <FiberManualRecordIcon/>
         Details
       </p>
-      </p>
+      </div>
     </footer>
   )
 }

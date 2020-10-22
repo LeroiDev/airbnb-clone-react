@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import './banner.css'
 import Button from '@material-ui/core/Button';
 import Search from '../search/Search';
+import {Link} from 'react-router-dom'
 
 const BannerSection = () => {
  const [showSearch,setShowSearch] = useState(false);
@@ -24,9 +25,11 @@ const BannerSection = () => {
         <h5>Settle in somewhere new, 
           discover stays near you now and 
           live,work or just go to relax.</h5>
+          <Link to="/search">
           <Button
             variant="outlined"
           >Explore nearby</Button>
+          </Link>
       </div>
     </section>
   )

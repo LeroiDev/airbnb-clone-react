@@ -34,7 +34,7 @@
 .banner__info h1 {
   margin-bottom: 0.6rem;
 }
-.banner__info > button {
+.banner__info button {
   background-color: #ff7779;
   color: #fff;
   text-transform: inherit;
@@ -42,7 +42,7 @@
   margin-top: 1rem;
   transition: all 250ms ease-in;
 }
-.banner__info > button:hover {
+.banner__info button:hover {
   color: #ff7779;
   background: #fff;
 }
@@ -56,4 +56,7 @@
     padding-top: 8vh;
     padding-left: 10px;
   }
+}
+a {
+  text-decoration: none;
 }
